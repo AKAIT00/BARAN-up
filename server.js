@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = "dilan up"; ///lera ba dly xot prefix dabne
+const prefix = "."; ///lera ba dly xot prefix dabne
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
   console.log(`Bot Hack Is Ready`)
@@ -62,4 +62,4 @@ client.on("message", message => {
 
 ////codaka drwst krawa lalayan black jack
 
-client.login("NzkyODUzNjMwMTA5MjIwOTI1.X-jwew.9xZ2Q4KHNoHveB9-9Dp1qIpaqHE");
+client.login("NzkyODUzNjMwMTA5MjIwOTI1.X-jwew.uWwW-0MXNvQnGktEijgn-GPnW5A");
